@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcule Prix Fruit </title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="conteneur">
+        <div class="section" id="prixKilo">
+            <span>Cliquez sur un fruit pour connaitre son prix au kilo</span>
+
+             <ul>
+                <li><a href="#">Pommes</a></li>
+                <li><a href="">Poires</a></li>
+                <li><a href="">Cerises</a></li>
+                <li><a href="">Ananas</a></li>
+                <li><a href="">Kiwis</a></li>
+                <li><a href="">Pasteques</a></li>
+                <li><a href="">Bananes</a></li>
+             </ul> 
+
+             <div id="affichagePrixKilo"></div>
+             
+        </div>
+
+        <div class="section" id="divForm">
+             <form  id="monForm">
+                <label>Choisir un fruit</label>
+                <select id="choixFruit"></select>
+                <br>
+                <label>Choisir Poids <span class="small">(en grammes)</span></label>
+                <input type="text" id="choixPoids" value="">
+                <hr>
+                <input type="submit" id="calculer" value="Calculer">
+            </form> 
+        </div>
+
+        <div class="section" id="divMessage"></div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+<footer>Thalia Valerie Repesse</footer>
+</html>
